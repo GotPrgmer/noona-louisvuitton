@@ -1,0 +1,14 @@
+nav{
+    display:flex;
+    width:100%;
+}
+.brand{
+    font-size:2em;
+}
+
+.upper{
+    max-height:80%;
+}
+.container{
+    display:flex;
+}
