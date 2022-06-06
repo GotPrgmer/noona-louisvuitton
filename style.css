@@ -1,5 +1,9 @@
+html{
+    margin:0;
+    padding:0
+}
 nav{
-    display:flex;
+    
     width:100%;
 }
 .brand{
@@ -9,6 +13,33 @@ nav{
 .upper{
     max-height:80%;
 }
-.container{
-    display:flex;
+
+footer{
+    background-color:black;
+    color:white
+}
+.first-line{
+    color:white;
+}
+.second-line a{
+    text-decoration: none;
+    color:white
+}
+.third-line {
+    display:none;
+}
+@media screen and (max-width:490px)
+{
+.first-line{
+    text-align:center
+}
+
+.second-line{
+    padding: 0 2rem;
+}
+.third-line{
+    text-align:center;
+    display:block;
+    font-size:30px;
+}
 }
