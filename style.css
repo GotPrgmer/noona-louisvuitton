@@ -47,6 +47,13 @@ footer{
     font-size:30px;
     
 }
+.card{
+    
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
 .footer{
     display:block
 }
