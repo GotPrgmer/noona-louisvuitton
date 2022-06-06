@@ -31,16 +31,21 @@ footer{
 @media screen and (max-width:490px)
 {
 .first-line{
-    text-align:center
+    text-align:center;
+    border-bottom: 1px solid #392d23;
 }
 
 .second-line{
     padding: 0 2rem;
+    border-bottom: 1px solid #392d23;
+}
+
 }
 .third-line{
     text-align:center;
     display:block;
     font-size:30px;
+    
 }
 .footer{
     display:block
